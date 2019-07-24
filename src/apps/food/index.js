@@ -36,7 +36,6 @@ class Food extends Component {
                 <CardTitle><h1>Food</h1></CardTitle>
                 <CardSubtitle>sub title</CardSubtitle>
                 </CardHeader>
-                
                 <CardBody>
                 <ReactJson src={this.state.food_json}/>
                 </CardBody>
