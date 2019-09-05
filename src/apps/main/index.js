@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Card, CardBody, CardHeader, CardSubtitle, CardText, CardTitle } from 'reactstrap'
-import '../../style/main.css'
 
 class Main extends Component {
     render () {
@@ -11,7 +10,7 @@ class Main extends Component {
                 <CardSubtitle>sub title</CardSubtitle>
                 </CardHeader>
                 
-                <CardBody class="newmod">
+                <CardBody>
                     <CardText>
                         <p>body</p>
                     </CardText>
