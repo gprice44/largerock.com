@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './style/style.scss'
 
 // header and footer imports 
 import Header from './components/header'

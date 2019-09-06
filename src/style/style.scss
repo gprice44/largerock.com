@@ -1,0 +1,24 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.stripe{
+    background-image: linear-gradient(45deg, #ffffff 42.86%, #000000 42.86%, #000000 50%, #ffffff 50%, #ffffff 92.86%, #000000 92.86%, #000000 100%);
+    background-size: 9.90px 9.90px;
+}
+
+.inside_stripe{
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff
+}
+
+.card{
+    outline-color: #000000;
+    outline-width: 3px;
+    outline-style: solid;
+    border-radius: 0px;
+}
+
+body{
+    font-family: "museo sans", sans-serif;
+}
+

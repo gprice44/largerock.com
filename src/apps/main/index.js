@@ -5,14 +5,15 @@ class Main extends Component {
     render () {
         return(
             <Card>
-                <CardHeader>
-                <CardTitle><h1>Title</h1></CardTitle>
-                <CardSubtitle>sub title</CardSubtitle>
+                <CardHeader className="card">
+                <CardTitle><h1>George P</h1></CardTitle>
+                <CardSubtitle>Welcome</CardSubtitle>
                 </CardHeader>
                 
-                <CardBody>
-                    <CardText>
-                        <p>body</p>
+                <CardBody className="stripe card">
+                    <CardText className="inside_stripe">
+                        <p>Personal website for your's truly.</p>
+                        <p>A work in progress</p>
                     </CardText>
                 </CardBody>
             </Card>
