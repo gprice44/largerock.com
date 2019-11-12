@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Card, CardBody, CardHeader, CardSubtitle, CardTitle, Row, Col } from 'reactstrap'
+import { Card, CardBody, CardHeader, CardSubtitle, CardTitle } from 'reactstrap'
 import ReactJson from 'react-json-view'
-import maboi from '../../images/maboi.jpg'
 
 class Resume extends Component {
 
@@ -28,8 +27,8 @@ class Resume extends Component {
 
     render () {
         return(
-            <Row>
-                <Col>
+        
+               
                     <Card>
                         <CardHeader>
                         <CardTitle><h1>Resume</h1></CardTitle>
@@ -39,16 +38,8 @@ class Resume extends Component {
                         <ReactJson src={this.state.resume_json}/>
                         </CardBody>
                     </Card>
-                </Col>
-                <Col>
-                    <Row>
-                        <img src={maboi} alt="MABOI"/ >
-                    </Row>
-                    <Row>
-                        <img src={maboi} alt="MABOI"/ >
-                    </Row>
-                </Col>
-            </Row>
+                
+           
         )
     }
 }

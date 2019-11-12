@@ -19,18 +19,16 @@ export default class Root extends React.Component{
     render() {
         return (
             <HashRouter>
-                <Header
-                name = "LargeRock"
-                />
-                    <div className='container'>
-                        <Switch>
-                            <Route path='/' exact component={Main}/>
-                            <Route path='/food/' component={Food}/>
-                            <Route path='/exercise/' component={Exercise}/>
-                            <Route path='/resume/' component={Resume}/>
-                            <Route path='*' component={NotFound}/>
-                        </Switch>
-                    </div>
+                <Header name="LargeRock"/>
+                <div className='container'>
+                    <Switch>
+                        <Route path='/' exact component={Main}/>
+                        <Route path='/food/' component={Food}/>
+                        <Route path='/exercise/' component={Exercise}/>
+                        <Route path='/resume/' component={Resume}/>
+                        <Route path='*' component={NotFound}/>
+                    </Switch>
+                </div>
                 <Footer/>
             </HashRouter>
         )
