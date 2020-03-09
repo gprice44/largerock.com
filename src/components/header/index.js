@@ -4,7 +4,7 @@ import { Nav, NavItem, Navbar } from 'reactstrap'
 
 class Header extends React.Component {
     render() {
-        const routes = ['food', 'exercise', 'resume']
+        const routes = ['resume']
         return(
             <Navbar className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Nav>

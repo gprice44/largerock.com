@@ -8,8 +8,6 @@ import Footer from './components/footer'
 
 // import main app components
 import Main from './apps/main'
-import Food from './apps/food'
-import Exercise from './apps/exercise'
 import Resume from './apps/resume'
 import NotFound from './apps/notfound'
 
@@ -23,8 +21,6 @@ export default class Root extends React.Component{
                 <div className='container'>
                     <Switch>
                         <Route path='/' exact component={Main}/>
-                        <Route path='/food/' component={Food}/>
-                        <Route path='/exercise/' component={Exercise}/>
                         <Route path='/resume/' component={Resume}/>
                         <Route path='*' component={NotFound}/>
                     </Switch>
